@@ -1,2 +1,0 @@
-# Eventpic-backend
-backend Repository 

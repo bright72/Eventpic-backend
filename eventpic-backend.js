@@ -4,7 +4,7 @@ const app = express();
 const port = 9000;
 
 app.get("/", (req, res) => res.send("API Work")); 
-app.get("/emailbakcend", (req, res) => {
+app.get("/emailbackend", (req, res) => {
   var data = {
     "email": "haritsuttisaksri@gmail.com",
     "img": ["dsd01","dsd02"]

@@ -6,8 +6,8 @@ const port = 9000;
 app.get("/", (req, res) => res.send("API Work")); 
 app.get("/emailbackend", (req, res) => {
   var data = {
-    "email": "haritsuttisaksri@gmail.com",
-    "img": ["dsd01","dsd02"]
+    "email": "harit.s@mail.kmutt.ac.th",
+    "img": ["img01","img02","img03","img04"]
 }
 
 request(res.send(data)

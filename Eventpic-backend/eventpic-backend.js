@@ -3,8 +3,7 @@ var request = require('request');
 const app = express(); 
 const port = 9000;
 
-app.get("/", (req, res) => res.send("Welcome to Java!"));  
-app.get("/testapi", (req, res) => res.send("Work")); 
+app.get("/", (req, res) => res.send("API Work")); 
 app.get("/emailbakcend", (req, res) => {
   var data = {
     "email": "haritsuttisaksri@gmail.com",

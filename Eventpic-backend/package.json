@@ -3,7 +3,7 @@
     "start": "node eventpic-backend.js"
   },
   "author": "haritsuttisaksri",
-  "license": "SIT",
+  "license": "UNLICENSE",
   "dependencies": {
     "express": "^4.17.1",
     "request": "^2.88.2"
